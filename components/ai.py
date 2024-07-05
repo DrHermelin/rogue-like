@@ -13,7 +13,7 @@ if TYPE_CHECKING:
 
 
 class BaseAI(Action, BaseComponent):
-    entity = Actor
+    entity: Actor
 
     def perform(self) -> None:
         raise NotImplementedError()
