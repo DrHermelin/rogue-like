@@ -63,7 +63,7 @@ def new_game() -> Engine:
     player.equipment.toggle_equip(leather_armor, add_message=False)
 
     player.inventory.items.append(barret)
-    player.equipment.toggle_equip(barret,add_message=False)
+    player.equipment.toggle_equip(barret, add_message=False)
 
     return engine
 
